@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
             speed = 0;
             jumpForce = 0;
             float c = Coins.coins;          
-            string text1= "Поздравляю, вы завершили игру и собрали " + System.Environment.NewLine + Mathf.Round(c / 38 * 100).ToString() + "% монет" + System.Environment.NewLine + "Умерли " + Coins.diedint.ToString();
+            string text1= "ГЏГ®Г§Г¤Г°Г ГўГ«ГїГѕ, ГўГ» Г§Г ГўГҐГ°ГёГЁГ«ГЁ ГЁГЈГ°Гі ГЁ Г±Г®ГЎГ°Г Г«ГЁ " + System.Environment.NewLine + Mathf.Round(c / 38 * 100).ToString() + "% Г¬Г®Г­ГҐГІ" + System.Environment.NewLine + "Г“Г¬ГҐГ°Г«ГЁ " + Coins.diedint.ToString();
             text.text = text1;
             Coins.diedint = 0;
             Jump.SetActive(false);
