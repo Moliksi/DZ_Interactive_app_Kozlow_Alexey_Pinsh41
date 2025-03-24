@@ -1,1 +1,0 @@
-# DZ_Interactive_app_Kozlow_Alexey_Pinsh41
